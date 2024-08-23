@@ -1,26 +1,30 @@
 /* font styles */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: "Poppins", sans-serif;
 }
-.banner-section-container{
+
+.banner-section-container {
     height: 850px;
     max-width: 1920px;
-    background-color:rgba(229, 84, 115, 0.1);;
+    background-color: rgba(229, 84, 115, 0.1);
+    ;
 }
-.banner-content{
+
+.banner-content {
     display: flex;
     width: 90%;
     margin: 0 auto;
 }
-.banner-text-container{
+
+.banner-text-container {
     width: 50%;
     /* border: 2px solid green; */
     height: 850px;
@@ -29,17 +33,20 @@ body{
     justify-content: center;
     align-items: center;
 }
-.banner-text-container > h1{
+
+.banner-text-container>h1 {
     font-size: 70px;
-     color: rgb(39, 39, 39);
+    color: rgb(39, 39, 39);
 }
-.banner-text-container > p{
+
+.banner-text-container>p {
     font-size: 18px;
     color: rgba(39, 39, 39, 0.6);
     margin: 32px 0px 32px 45px;
 
 }
-.btn{
+
+.btn {
     margin-right: 490px;
     padding: 20px 43px;
     font-size: 20px;
@@ -47,12 +54,148 @@ body{
     border-radius: 8px;
     border: none;
     color: rgb(255, 255, 255)
-    
 }
-.banner-image-container{
+
+.banner-image-container {
     width: 50%;
     height: 850px;
     display: flex;
     justify-content: center;
 
+}
+
+.featured-image-container {
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 140px;
+
+}
+
+.featured-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 594px;
+    max-height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+}
+
+.feature-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 80px;
+    /* justify-content: space-evenly; */
+}
+
+.first-image,
+.third-image,
+.second-image {
+    width: 464px;
+    height: 480px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 0 0;
+    margin: 40px 0 80px 0;
+}
+
+#first {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+#second {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+#third {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.font-head {
+    font-size: 40px;
+    color: rgb(39, 39, 39);
+}
+
+/* shared style */
+.font-dis {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.delivery-card {
+    max-width: 1440px;
+    max-height: 320px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    text-align: center;
+    justify-content: center;
+    padding: 80px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+/* shared style pink */
+.pink {
+    color: rgb(229, 84, 115);
+}
+
+/* Hot deal styles */
+.hot-deal h1 {
+    font-size: 40px;
+    color: rgb(39, 39, 39);
+}
+
+.hot-deal p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+}
+
+.hot-deal {
+    height: 620px;
+    max-width: 1920px;
+    /* border: 2px solid red; */
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 80px;
+}
+
+.hot-deal-text {
+    width: 50%;
+    height: 620px;
+    /* border: solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-left: 250px;
+}
+
+.hot-deal-img {
+    display: flex;
+    height: 620px;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
+
+.hot-deal-content {
+    display: flex;
+}
+
+#btn-2 {
+    align-items: center;
+    margin: 0 auto;
 }
