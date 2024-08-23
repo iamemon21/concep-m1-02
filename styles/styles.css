@@ -199,3 +199,50 @@ body {
     align-items: center;
     margin: 0 auto;
 }
+
+/* instagram-section-styles */
+.image-text-content {
+    width: 594px;
+    height: 132px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.instagram-section-container {
+    height: 650px;
+    width: 1440px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.insta-first-image {
+    width: 342px;
+    height: 396px;
+    /* border: 2px solid red; */
+}
+
+.insta-first-image img {
+    height: 90%;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.instagram-image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 80px;
+}
+
+.image-text-content h1 {
+    font-size: 40px;
+    color: rgb(39, 39, 39);
+    margin-bottom: 20px;
+}
+
+.image-text-content p {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
