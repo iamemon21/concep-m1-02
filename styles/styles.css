@@ -251,7 +251,7 @@ body {
 /* latest-deal-styles */
 
 .latest-deals-container {
-    background-image: url(/asstes/latest-deals-bg.png);
+    background-image: url(../asstes/latest-deals-bg.png);
     width: 1440px;
     height: 449px;
     margin: 0 auto;
@@ -300,10 +300,11 @@ body {
     font-size: 16px;
     color: rgba(39, 39, 39, 0.6);
 }
+
 /* latest deal section end */
 
 /* footer styles */
-.foot{
+.foot {
     height: 449px;
     width: 1922px;
     /* border: 2px solid red; */
@@ -311,18 +312,22 @@ body {
     text-align: center;
     padding-top: 130px;
 }
-.foot h1{
+
+.foot h1 {
     font-size: 48px;
     color: white;
 }
+
 .foot p {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.9);
 }
-#copy{
+
+#copy {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.4);
 }
+
 /* footer completed */
 
 /* project END */
